@@ -8,8 +8,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-poppins: var(--font-poppins);
+  --color-primary: #C36329;
+  --color-red: #FC5119;
+  --color-green: #94D82D;
+  --color-purple: #CC5DE8;
+  --color-gray: #A6A4A37D;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +26,19 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins, sans-serif);
+}
+
+
+.scroll-red::-webkit-scrollbar {
+  height: 5px;
+}
+
+.scroll-red::-webkit-scrollbar-track {
+  background: #fecaca; /* red-100 */
+}
+
+.scroll-red::-webkit-scrollbar-thumb {
+  background-color: #FC5119;
+  border-radius: 4px;
 }
