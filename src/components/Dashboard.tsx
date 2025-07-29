@@ -1,11 +1,10 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Chart from "./Chart";
 
-type Props = {};
 
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
   return (
     <>
       <section className="md:w-5/6 relative left-50">

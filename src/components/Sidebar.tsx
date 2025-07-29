@@ -2,11 +2,7 @@
 import React, { useState } from "react";
 import { menuItems } from "../../public/assets/assets";
 
-type Props = {};
-
-
-
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
