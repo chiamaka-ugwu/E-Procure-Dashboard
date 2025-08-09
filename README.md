@@ -10,7 +10,6 @@ The system will include:
 * **Backend**: REST APIs built with **Node.js**, **Express.js**, and **MongoDB**.
 * **Database**: MongoDB for storing procurement data, suppliers, orders, etc.
 
----
 
 ## **Features**
 
@@ -44,7 +43,6 @@ The system will include:
 * Secure login using JWT authentication.
 * Password hashing with bcrypt.
 
----
 
 ## **Tech Stack**
 
@@ -63,7 +61,6 @@ The system will include:
 * **JWT** (authentication)
 * **bcrypt** (password hashing)
 
----
 
 ## **Usage**
 
@@ -72,12 +69,9 @@ The system will include:
 3. View and filter analytics data.
 4. Export reports for decision-making.
 
----
 
 ## **Future Improvements**
 
 * Implement email notifications for approvals.
 * Add budgeting and cost forecasting modules.
 * Integrate with ERP systems for real-time procurement tracking.
-
----
