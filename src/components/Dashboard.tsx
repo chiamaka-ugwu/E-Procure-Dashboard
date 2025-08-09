@@ -41,7 +41,7 @@ const Dashboard = () => {
               </div>
               <div className="box bg-white w-[23%] p-4 h-40 shadow-md rounded-md">
                 <div>
-                  <p className="font-bold mb-4 text-xl">0</p>
+                  <p className="font-bold mb-4 text-xl">2</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
                     Pending Approvals
                   </p>
