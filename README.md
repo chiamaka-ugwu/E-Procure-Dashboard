@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **E-Procure – Full-Stack Admin Dashboard**
 
-## Getting Started
+E-Procure is a full-stack **Admin Dashboard** application designed to streamline procurement management for an oil and gas company. It enables users to monitor purchase requests, manage suppliers, approve transactions, track budgets, and visualize procurement data in real time.
 
-First, run the development server:
+This project is still a work in progress, but when completed...
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The system will include:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Frontend**: A responsive, modern UI built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **Recharts**.
+* **Backend**: REST APIs built with **Node.js**, **Express.js**, and **MongoDB**.
+* **Database**: MongoDB for storing procurement data, suppliers, orders, etc.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## **Features**
 
-## Learn More
+### **Dashboard**
 
-To learn more about Next.js, take a look at the following resources:
+* Overview of procurement activities.
+* Real-time analytics using charts.
+* KPI metrics such as **Total Purchases**, **Pending Approvals**, **Budget Usage**, and **Top Suppliers**.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **Purchase Requests**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* View, approve, or reject purchase requests.
+* Create new purchase orders.
+* Assign suppliers and track fulfillment.
 
-## Deploy on Vercel
+### **Supplier Management**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Add and edit supplier details.
+* View supplier ratings and performance metrics.
+* Supplier contact and contract management.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### **Analytics**
+
+* Stacked bar and area charts for expenditure trends.
+* Filter by date, department, or project.
+* Export data as **CSV** or **PDF**.
+
+### **User Management**
+
+* Role-based authentication (Admin, Manager, Viewer).
+* Secure login using JWT authentication.
+* Password hashing with bcrypt.
+
+---
+
+## **Tech Stack**
+
+### **Frontend**
+
+* **Next.js** (React framework for SSR & SSG)
+* **TypeScript** (static typing)
+* **Tailwind CSS** (utility-first styling)
+* **Recharts** (data visualization)
+
+### **Backend**
+
+* **Node.js** + **Express.js** (API server)
+* **MongoDB** (NoSQL database)
+* **Mongoose** (MongoDB object modeling)
+* **JWT** (authentication)
+* **bcrypt** (password hashing)
+
+---
+
+## **Usage**
+
+1. Log in with admin credentials.
+2. Access procurement dashboards, approve/reject purchase requests, and manage suppliers.
+3. View and filter analytics data.
+4. Export reports for decision-making.
+
+---
+
+## **Future Improvements**
+
+* Implement email notifications for approvals.
+* Add budgeting and cost forecasting modules.
+* Integrate with ERP systems for real-time procurement tracking.
+
+---

@@ -1,4 +1,5 @@
 import cart from './icons8-cart-50.png'
+// import arrow from './'
 
 export const assets = [
     cart,

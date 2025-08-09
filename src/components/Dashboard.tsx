@@ -27,7 +27,7 @@ const Dashboard = () => {
                 <div>
                   <p className="font-bold mb-4 text-xl">17</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Total PR
+                    Total Purchases
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
@@ -43,7 +43,7 @@ const Dashboard = () => {
                 <div>
                   <p className="font-bold mb-4 text-xl">0</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Total PO
+                    Pending Approvals
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
@@ -57,9 +57,9 @@ const Dashboard = () => {
               </div>
               <div className="box bg-white w-[23%] p-4 h-40 shadow-md rounded-md">
                 <div>
-                  <p className="font-bold mb-4 text-xl">2</p>
+                  <p className="font-bold mb-4 text-xl">35%</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Total PO Outstanding
+                    Budget Usage
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
@@ -75,7 +75,7 @@ const Dashboard = () => {
                 <div>
                   <p className="font-bold mb-4 text-xl">1</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Material Outstanding
+                    Top Suppliers
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
@@ -100,23 +100,7 @@ const Dashboard = () => {
                 <div>
                   <p className="font-bold mb-4 text-xl">17</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Total PR
-                  </p>
-                </div>
-                {/* <Image src="" alt="icon" /> */}
-                <div className="border border-gray mb-4"></div>
-                <div>
-                  <Link className="text-xs text-red-600 underline" href="">
-                    Details
-                  </Link>
-                  {/* <Image src="" alt="arrow" /> */}
-                </div>
-              </div>
-              <div className="box bg-white w-[47%] p-4 h-40 shadow-md rounded-md">
-                <div>
-                  <p className="font-bold mb-4 text-xl">0</p>
-                  <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Total PO
+                    Total Purchases
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
@@ -132,7 +116,7 @@ const Dashboard = () => {
                 <div>
                   <p className="font-bold mb-4 text-xl">2</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Total PO Outstanding
+                    Pending Approvals
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
@@ -146,9 +130,25 @@ const Dashboard = () => {
               </div>
               <div className="box bg-white w-[47%] p-4 h-40 shadow-md rounded-md">
                 <div>
-                  <p className="font-bold mb-4 text-xl">1</p>
+                  <p className="font-bold mb-4 text-xl">35%</p>
                   <p className="text-xs text-gray-600 font-semibold mb-2">
-                    Material Outstanding
+                    Budget Usage
+                  </p>
+                </div>
+                {/* <Image src="" alt="icon" /> */}
+                <div className="border border-gray mb-4"></div>
+                <div>
+                  <Link className="text-xs text-red-600 underline" href="">
+                    Details
+                  </Link>
+                  {/* <Image src="" alt="arrow" /> */}
+                </div>
+              </div>
+              <div className="box bg-white w-[47%] p-4 h-40 shadow-md rounded-md">
+                <div>
+                  <p className="font-bold mb-4 text-xl">5</p>
+                  <p className="text-xs text-gray-600 font-semibold mb-2">
+                    Top Suppliers
                   </p>
                 </div>
                 {/* <Image src="" alt="icon" /> */}
