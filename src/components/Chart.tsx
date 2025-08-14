@@ -13,12 +13,12 @@ import {
 
 export default function Chart() {
   const data = [
-    { date: "Jan 1, 2024", totalInvoice: 55, openPayments: 28, closedPayments: 80 },
-    { date: "Feb 1, 2024", totalInvoice: 65, openPayments: 58, closedPayments: 25 },
-    { date: "Mar 1, 2024", totalInvoice: 60, openPayments: 15, closedPayments: 45 },
-    { date: "Apr 1, 2024", totalInvoice: 25, openPayments: 60, closedPayments: 67 },
-    { date: "May 1, 2024", totalInvoice: 70, openPayments: 42, closedPayments: 55 },
-    { date: "Jun 1, 2024", totalInvoice: 40, openPayments: 27, closedPayments: 36 },
+    { date: "Jan 1, 2025", totalInvoice: 55, openPayments: 28, closedPayments: 80 },
+    { date: "Feb 1, 2025", totalInvoice: 65, openPayments: 58, closedPayments: 25 },
+    { date: "Mar 1, 2025", totalInvoice: 60, openPayments: 15, closedPayments: 45 },
+    { date: "Apr 1, 2025", totalInvoice: 25, openPayments: 60, closedPayments: 67 },
+    { date: "May 1, 2025", totalInvoice: 70, openPayments: 42, closedPayments: 55 },
+    { date: "Jun 1, 2025", totalInvoice: 40, openPayments: 27, closedPayments: 36 },
   ];
 
   const keys = ["totalInvoice", "openPayments", "closedPayments"];

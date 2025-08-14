@@ -7,7 +7,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <section className="w-50 h-screen fixed bg-white shadow-lg">
+      <section className="w-50 h-screen fixed bg-white shadow-lg hidden md:block">
         <div className="mx-6 mt-4 font-semibold">E-Procure</div>
         <ul className="flex flex-col gap-1 text-xs font-medium mx-4 mt-4 cursor-pointer">
           {menuItems.map((item, idx) => (
