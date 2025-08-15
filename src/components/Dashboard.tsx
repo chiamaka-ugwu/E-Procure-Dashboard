@@ -8,7 +8,7 @@ import Image from "next/image";
 const Dashboard = () => {
   return (
     <>
-      <section className="md:w-5/6 relative md:left-50">
+      <section className="md:w-[83%] relative md:left-53">
         {/* 1 */}
         <div className="h-16 flex items-center w-[95%] mx-auto">
           <h1 className="font-semibold text-md">Dashboard</h1>
@@ -28,7 +28,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">17</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Total Purchases
                     </p>
                   </div>
@@ -47,7 +47,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">2</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Pending Approvals
                     </p>
                   </div>
@@ -66,7 +66,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">35%</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Budget Usage
                     </p>
                   </div>
@@ -85,7 +85,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">5</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Top Suppliers
                     </p>
                   </div>
@@ -112,7 +112,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">17</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Total Purchases
                     </p>
                   </div>
@@ -131,7 +131,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">2</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Cash at hand
                     </p>
                   </div>
@@ -150,7 +150,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2 text-base">35%</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Budget Usage
                     </p>
                   </div>
@@ -169,7 +169,7 @@ const Dashboard = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <p className="font-bold mb-2   text-base">5</p>
-                    <p className="text-[10px] text-gray-600 font-semibold mb-2">
+                    <p className="text-xs text-gray-600 font-semibold mb-2">
                       Suppliers
                     </p>
                   </div>
